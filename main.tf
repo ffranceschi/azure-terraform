@@ -14,10 +14,10 @@ provider "azurerm" {
   }
   # Para registrar client_id, client_secret e tenant_id, precisa entrar no entra id e registrar em app registrantion.
   # Depois ao entrar no registro, entrar na opcao certificates & secrets para criar o client_secret
-  client_id = "9e56ddb8-e204-4cff-9c84-41ec1bb8f77a"
-  client_secret = "uYW8Q~VxRd_zZ.oXg-K0FOpY3r9Rd7cVdJABmbpv"
-  tenant_id = "fdc9d3b2-a5f3-44eb-9d7a-08c87344d26a"
-  subscription_id = "e0ff941f-00b9-4c7d-b5a2-947f45ff2ae0"
+  client_id = "Entra ID -> app registrations"
+  client_secret = "Entra Id -> app registration -> Certificates & secrets"
+  tenant_id = "Entra ID -> app registration"
+  subscription_id = "id da subscricao"
 }
 
 resource "azurerm_resource_group" "appgrp" {
