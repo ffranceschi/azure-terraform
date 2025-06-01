@@ -7,13 +7,14 @@ terraform {
   }
 }
 
+# Para registrar client_id, client_secret e tenant_id, precisa entrar no entra id e registrar em app registrantion.
+# Depois ao entrar no registro, entrar na opcao certificates & secrets para criar o client_secret
+
 provider "azurerm" {
   # Configuration options
   features {
     
   }
-  # Para registrar client_id, client_secret e tenant_id, precisa entrar no entra id e registrar em app registrantion.
-  # Depois ao entrar no registro, entrar na opcao certificates & secrets para criar o client_secret
 
 }
 
